@@ -1,0 +1,21 @@
+{
+  "name": "job-portal-server",
+  "version": "1.0.0",
+  "description": "This is a job portal website backend server made using Node and Express with MongoDB as database, based on MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.0.2",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0"
+  }
+}
